@@ -1,11 +1,11 @@
 {
-  "version": "0.1.0",
-  "release_url": "https://github.com/JaysonPasquier/Subi-Extension-Chrome/releases/tag/v0.1.0",
-  "download_url": "https://github.com/JaysonPasquier/Subi-Extension-Chrome/releases/download/v0.1.0/subi-extension.zip",
-  "description": "Initial release",
+  "version": "0.1.1",
+  "release_url": "https://github.com/JaysonPasquier/Subi-Extension-Chrome/releases/tag/v0.1.1",
+  "download_url": "https://github.com/JaysonPasquier/Subi-Extension-Chrome/releases/download/v0.1.1/subi-extension.zip",
+  "description": "Traductions FR/EN + corrections",
   "changelog": [
-    "First public release",
-    "Banner, chat banner and chat card ad placements",
-    "Credit system: 6 impressions = 1 credit, 1000 credits = 1 gifted sub"
+    "Ajout des langues français et anglais (détection automatique)",
+    "Correction de sécurité (échappement du contenu des pubs)",
+    "Nettoyage des logs de debug"
   ]
 }
