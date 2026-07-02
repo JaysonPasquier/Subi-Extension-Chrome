@@ -12,6 +12,17 @@
 
 ---
 
+## Sommaire
+
+- [C'est quoi Subi ?](#cest-quoi-subi-)
+- [Installation](#installation)
+- [Mettre à jour l'extension](#mettre-à-jour-lextension)
+- [FAQ](#faq)
+- [Liens](#liens)
+- [Un problème, une question ou un retour ?](#un-problème-une-question-ou-un-retour-)
+
+---
+
 ## C'est quoi Subi ?
 
 Subi est une extension Chrome qui affiche de petites pubs, non intrusives, pendant que tu regardes des streams Twitch. Chaque pub te fait gagner des crédits. Une fois 1 000 crédits atteints, tu peux les échanger contre un sub Tier 1 offert sur la chaîne de ton choix, totalement gratuit. (si il ny a pas de pubs aucun credits est obtenue)
@@ -92,6 +103,12 @@ Subi ne demande que la permission `user:read:email` lecture seule. Il ne peut ni
 - Tableau de bord : [subi.live/dashboard](https://subi.live/dashboard)
 - Annonceurs : [subi.live/advertiser](https://subi.live/advertiser)
 
+---
+
+## Un problème, une question ou un retour ?
+
+### **[Envoyez-moi un message sur Discord](https://discord.com/users/683092433919279201)**
+
 <br>
 
 ---
@@ -110,6 +127,17 @@ Subi ne demande que la permission `user:read:email` lecture seule. Il ne peut ni
 # Subi Extension Chrome
 
 **Watch ads on Twitch, earn credits, redeem for gifted subs.**
+
+---
+
+## Table of contents
+
+- [What is Subi?](#what-is-subi)
+- [Installation](#installation-1)
+- [Updating the extension](#updating-the-extension)
+- [FAQ](#faq-1)
+- [Links](#links)
+- [A problem, a question or feedback?](#a-problem-a-question-or-feedback)
 
 ---
 
@@ -192,3 +220,9 @@ At 60 credits/day (1 h of watching with active ads): **~17 days** per sub.
 - Website: [subi.live](https://subi.live)
 - Dashboard: [subi.live/dashboard](https://subi.live/dashboard)
 - Advertisers: [subi.live/advertiser](https://subi.live/advertiser)
+
+---
+
+## 💬 A problem, a question or feedback?
+
+### 👉 **[Send me a message on Discord](https://discord.com/users/683092433919279201)**
