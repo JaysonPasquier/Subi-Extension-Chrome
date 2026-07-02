@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 280px;
+  background: #0e0e10;
+  color: #efeff1;
+  font-family: 'Inter', 'Roobert', Arial, sans-serif;
+  font-size: 13px;
+}
+
+.popup-root {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #9147ff;
+  letter-spacing: -0.5px;
+}
+
+.tagline {
+  font-size: 11px;
+  color: #6f6f78;
+}
+
+/* Credits */
+.credits-section {
+  background: #1f1f23;
+  border-radius: 8px;
+  padding: 14px;
+  text-align: center;
+}
+
+.credits-label {
+  font-size: 11px;
+  color: #6f6f78;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+
+.credits-value {
+  font-size: 36px;
+  font-weight: 700;
+  color: #9147ff;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.credits-sub {
+  font-size: 11px;
+  color: #6f6f78;
+}
+
+/* Progress */
+.progress-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: #adadb8;
+}
+
+.progress-track {
+  height: 6px;
+  background: #2a2a2d;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #9147ff;
+  border-radius: 3px;
+  transition: width 0.4s ease;
+}
+
+/* Redeem */
+.redeem-btn {
+  width: 100%;
+  padding: 10px;
+  background: #9147ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.redeem-btn:hover:not(:disabled) {
+  background: #772ce8;
+}
+
+.redeem-btn:disabled {
+  background: #2a2a2d;
+  color: #6f6f78;
+  cursor: default;
+}
+
+/* Login */
+.login-card {
+  background: #1f1f23;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.login-desc {
+  font-size: 12px;
+  color: #adadb8;
+  line-height: 1.5;
+}
+
+.connect-btn {
+  width: 100%;
+  padding: 10px;
+  background: #9147ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.connect-btn:hover { background: #772ce8; }
+
+/* User pill */
+.user-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #1f1f23;
+  border-radius: 6px;
+  padding: 8px 10px;
+}
+
+.avatar {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.username {
+  flex: 1;
+  font-size: 13px;
+  font-weight: 600;
+  color: #efeff1;
+}
+
+.logout-btn {
+  background: none;
+  border: none;
+  color: #6f6f78;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: color 0.15s;
+}
+
+.logout-btn:hover { color: #efeff1; }
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-link {
+  color: #6f6f78;
+  text-decoration: none;
+  font-size: 11px;
+  transition: color 0.15s;
+}
+
+.footer-link:hover {
+  color: #adadb8;
+}
+
+.footer-sep {
+  color: #3a3a3d;
+  font-size: 11px;
+}
+
+/* ── Update banner ─────────────────────────────────────────────────────────── */
+#update-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: rgba(145, 71, 255, 0.15);
+  border-bottom: 1px solid rgba(145, 71, 255, 0.3);
+  padding: 8px 14px;
+  font-size: 12px;
+  color: #c4a8ff;
+}
+#update-banner a {
+  color: #9147ff;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+#update-banner a:hover { text-decoration: underline; }

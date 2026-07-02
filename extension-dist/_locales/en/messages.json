@@ -1,0 +1,19 @@
+{
+  "ext_name":        { "message": "Subi" },
+  "ext_description": { "message": "Watch ads on Twitch, earn credits, redeem for gifted subs." },
+
+  "tagline":         { "message": "Ads → Gifted Subs" },
+  "login_desc":      { "message": "Connect your Twitch account to earn credits by watching ads and redeem them for gifted subs." },
+  "connect_btn":     { "message": "Connect with Twitch" },
+  "credits_label":   { "message": "Your credits" },
+  "credits_sub":     { "message": "6 impressions = 1 credit · max 60/day" },
+  "progress_label":  { "message": "Progress to gifted sub" },
+  "redeem_btn":      { "message": "Redeem Gifted Sub" },
+  "redeem_hint":     { "message": "Need $1 more credits" },
+  "loading":         { "message": "Loading…" },
+  "dashboard_link":  { "message": "Dashboard" },
+  "logout_title":    { "message": "Disconnect" },
+  "update_available":{ "message": "Update available — click to see what's new" },
+  "update_banner":   { "message": "🟣 New version available" },
+  "update_btn":      { "message": "See release →" }
+}

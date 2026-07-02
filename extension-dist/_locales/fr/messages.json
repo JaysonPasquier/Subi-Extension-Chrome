@@ -1,0 +1,19 @@
+{
+  "ext_name":        { "message": "Subi" },
+  "ext_description": { "message": "Regarde des pubs sur Twitch, gagne des crédits, échange-les contre des abos offerts." },
+
+  "tagline":         { "message": "Pubs → Abos offerts" },
+  "login_desc":      { "message": "Connecte ton compte Twitch pour gagner des crédits en regardant des pubs et les échanger contre des abos offerts." },
+  "connect_btn":     { "message": "Connecter avec Twitch" },
+  "credits_label":   { "message": "Tes crédits" },
+  "credits_sub":     { "message": "6 impressions = 1 crédit · max 60/jour" },
+  "progress_label":  { "message": "Progression vers un abo offert" },
+  "redeem_btn":      { "message": "Obtenir un abo offert" },
+  "redeem_hint":     { "message": "Il te manque $1 crédits" },
+  "loading":         { "message": "Chargement…" },
+  "dashboard_link":  { "message": "Tableau de bord" },
+  "logout_title":    { "message": "Déconnecter" },
+  "update_available":{ "message": "Mise à jour disponible — clique pour voir les nouveautés" },
+  "update_banner":   { "message": "🟣 Nouvelle version disponible" },
+  "update_btn":      { "message": "Voir la release →" }
+}

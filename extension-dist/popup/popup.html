@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subi</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup-root">
+    <header>
+      <span class="logo">Subi</span>
+      <span class="tagline" data-i18n="tagline">Ads → Gifted Subs</span>
+    </header>
+
+    <!-- ── UPDATE BANNER (hidden by default) ── -->
+    <div id="update-banner" style="display:none">
+      <span data-i18n="update_banner">🟣 New version available</span>
+      <a id="update-link" href="#" target="_blank" data-i18n="update_btn">See release →</a>
+    </div>
+
+    <!-- ── LOGGED OUT ── -->
+    <section id="login-section" style="display:none">
+      <div class="login-card">
+        <p class="login-desc" data-i18n="login_desc">Connect your Twitch account to earn credits by watching ads and redeem them for gifted subs.</p>
+        <button class="connect-btn" id="connect-btn" data-i18n="connect_btn">Connect with Twitch</button>
+      </div>
+    </section>
+
+    <!-- ── LOGGED IN ── -->
+    <section id="user-section" style="display:none">
+      <div class="user-pill">
+        <img id="avatar" src="" alt="" class="avatar" style="display:none" />
+        <span id="username" class="username"></span>
+        <button class="logout-btn" id="logout-btn" data-i18n-title="logout_title" title="Disconnect">✕</button>
+      </div>
+
+      <div class="credits-section">
+        <div class="credits-label" data-i18n="credits_label">Your credits</div>
+        <div class="credits-value" id="credits-value">0</div>
+        <div class="credits-sub" data-i18n="credits_sub">6 impressions = 1 credit · max 60/day</div>
+      </div>
+
+      <div class="progress-section">
+        <div class="progress-header">
+          <span data-i18n="progress_label">Progress to gifted sub</span>
+          <span id="progress-label">0 / 1,000</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+        </div>
+      </div>
+
+      <button class="redeem-btn" id="redeem-btn" disabled data-i18n="redeem_btn">Redeem Gifted Sub</button>
+    </section>
+
+    <!-- ── LOADING ── -->
+    <section id="loading-section">
+      <p style="text-align:center;color:#6f6f78;font-size:12px;padding:20px 0" data-i18n="loading">Loading…</p>
+    </section>
+
+    <footer>
+      <a href="https://subi.live/dashboard" target="_blank" class="footer-link" id="dashboard-link" data-i18n="dashboard_link">Dashboard</a>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
