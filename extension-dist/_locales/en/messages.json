@@ -15,5 +15,17 @@
   "logout_title":    { "message": "Disconnect" },
   "update_available":{ "message": "Update available — click to see what's new" },
   "update_banner":   { "message": "🟣 New version available" },
-  "update_btn":      { "message": "See release →" }
+  "update_btn":      { "message": "See release →" },
+
+  "ph_no_ads":          { "message": "No ads available right now" },
+  "ph_no_ads_banner":   { "message": "No ads available right now — check back soon" },
+  "ph_connect_banner":  { "message": "Connect your Twitch account to start earning credits while watching ads" },
+  "ph_connect_chat":    { "message": "Connect your Twitch account to earn credits watching ads" },
+  "ph_connect_card":    { "message": "Connect Twitch to earn credits" },
+  "cta_connect_twitch": { "message": "Connect Twitch" },
+  "cta_connect_short":  { "message": "Connect" },
+  "hs_connect":         { "message": "Connect Twitch" },
+  "sponsored":          { "message": "Sponsored" },
+  "ad_tag":             { "message": "Ad" },
+  "dismiss":            { "message": "Dismiss" }
 }

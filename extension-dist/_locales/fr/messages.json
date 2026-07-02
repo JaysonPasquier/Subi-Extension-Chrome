@@ -15,5 +15,17 @@
   "logout_title":    { "message": "Déconnecter" },
   "update_available":{ "message": "Mise à jour disponible — clique pour voir les nouveautés" },
   "update_banner":   { "message": "🟣 Nouvelle version disponible" },
-  "update_btn":      { "message": "Voir la release →" }
+  "update_btn":      { "message": "Voir la release →" },
+
+  "ph_no_ads":          { "message": "Aucune pub disponible pour le moment" },
+  "ph_no_ads_banner":   { "message": "Aucune pub disponible pour le moment — reviens bientôt" },
+  "ph_connect_banner":  { "message": "Connecte ton compte Twitch pour gagner des crédits en regardant des pubs" },
+  "ph_connect_chat":    { "message": "Connecte ton compte Twitch pour gagner des crédits en regardant des pubs" },
+  "ph_connect_card":    { "message": "Connecte Twitch pour gagner des crédits" },
+  "cta_connect_twitch": { "message": "Connecter Twitch" },
+  "cta_connect_short":  { "message": "Connecter" },
+  "hs_connect":         { "message": "Connecter Twitch" },
+  "sponsored":          { "message": "Sponsorisé" },
+  "ad_tag":             { "message": "Pub" },
+  "dismiss":            { "message": "Fermer" }
 }
