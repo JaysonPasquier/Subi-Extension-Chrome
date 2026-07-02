@@ -1,11 +1,10 @@
 {
-  "version": "0.1.1",
-  "release_url": "https://github.com/JaysonPasquier/Subi-Extension-Chrome/releases/tag/v0.1.1",
-  "download_url": "https://github.com/JaysonPasquier/Subi-Extension-Chrome/releases/download/v0.1.1/subi-extension.zip",
-  "description": "Traductions FR/EN + corrections",
+  "version": "0.1.2",
+  "release_url": "https://github.com/JaysonPasquier/Subi-Extension-Chrome/releases/tag/v0.1.2",
+  "download_url": "https://github.com/JaysonPasquier/Subi-Extension-Chrome/releases/download/v0.1.2/subi-extension.zip",
+  "description": "Nouveau logo + corrections",
   "changelog": [
-    "Ajout des langues français et anglais (détection automatique)",
-    "Correction de sécurité (échappement du contenu des pubs)",
-    "Nettoyage des logs de debug"
+    "Nouveau logo Subi",
+    "Mise à jour des icônes de l'extension"
   ]
 }

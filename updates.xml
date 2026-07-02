@@ -2,7 +2,7 @@
 <gupdate xmlns='http://www.google.com/update2/response' protocol='2.0'>
   <app appid='YOUR_EXTENSION_ID_HERE'>
     <updatecheck
-      codebase='https://github.com/JaysonPasquier/Subi-Extension-Chrome/releases/download/v0.1.1/subi-extension.crx'
-      version='0.1.1' />
+      codebase='https://github.com/JaysonPasquier/Subi-Extension-Chrome/releases/download/v0.1.2/subi-extension.crx'
+      version='0.1.2' />
   </app>
 </gupdate>
