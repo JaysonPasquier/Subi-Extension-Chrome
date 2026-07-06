@@ -684,7 +684,7 @@ function buildMenuHTML(data, token) {
       </div>
       <div class="sm-row">
         <span class="sm-label">Gagnés aujourd'hui</span>
-        <span class="sm-value${capped ? ' capped' : ''}">${daily} / 60${capped ? ' · max' : ''}</span>
+        <span class="sm-value${capped ? ' capped' : ''}">${daily} / 60 max</span>
       </div>
       <div class="sm-progress-wrap">
         <div class="sm-row">
@@ -954,7 +954,7 @@ function refreshHeaderStats() {
     const credits = r.credits || 0;
     const capped  = r.capReached || daily >= 60;
     el.innerHTML =
-      `<span class="subi-hs-daily" style="${capped ? 'color:#e91916' : ''}">${daily} / 60${capped ? ' Â· max' : ''}</span>` +
+      `<span class="subi-hs-daily" style="${capped ? 'color:#e91916' : ''}">${daily} / 60 max</span>` +
       `<span class="subi-hs-sep"></span>` +
       `<span class="subi-hs-credits">${credits.toLocaleString()}</span>`;
   });
