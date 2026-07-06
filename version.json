@@ -1,10 +1,12 @@
 {
-  "version": "0.1.2",
-  "release_url": "https://github.com/JaysonPasquier/Subi-Extension-Chrome/releases/tag/v0.1.2",
-  "download_url": "https://github.com/JaysonPasquier/Subi-Extension-Chrome/releases/download/v0.1.2/subi-extension.zip",
-  "description": "Nouveau logo + corrections",
+  "version": "0.1.3",
+  "release_url": "https://github.com/JaysonPasquier/Subi-Extension-Chrome/releases/tag/v0.1.3",
+  "download_url": "https://github.com/JaysonPasquier/Subi-Extension-Chrome/releases/download/v0.1.3/subi-extension.zip",
+  "description": "Menu Subi dans le chat Twitch",
   "changelog": [
-    "Nouveau logo Subi",
-    "Mise Ã  jour des icÃ´nes de l'extension"
+    "Nouveau menu Subi dans la barre de chat Twitch",
+    "Affichage des crédits, progression et badges",
+    "Sélection de badge depuis le chat",
+    "Correction des caractères spéciaux"
   ]
 }
