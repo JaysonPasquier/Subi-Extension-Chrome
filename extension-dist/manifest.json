@@ -40,5 +40,13 @@
   ],
   "background": {
     "service_worker": "background/background.js"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icons/logo-full-white.png", "icons/logo-full-purple.png", "icons/logo-and-border-white.png"
+      ],
+      "matches": ["https://www.twitch.tv/*"]
+    }
+  ]
 }

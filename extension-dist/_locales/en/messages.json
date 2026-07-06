@@ -2,13 +2,12 @@
   "ext_name":        { "message": "Subi" },
   "ext_description": { "message": "Watch ads on Twitch, earn credits, redeem for gifted subs." },
 
-  "tagline":         { "message": "Ads → Gifted Subs" },
-  "login_desc":      { "message": "Connect your Twitch account to earn credits by watching ads and redeem them for gifted subs." },
+  "login_desc":      { "message": "Connect your Twitch account to earn credits by watching streams and redeem them for gifted subs." },
   "connect_btn":     { "message": "Connect with Twitch" },
   "credits_label":   { "message": "Your credits" },
-  "credits_sub":     { "message": "6 impressions = 1 credit · max 60/day" },
+  "credits_sub":     { "message": "1 minute = 1 credit · max 60/day" },
   "progress_label":  { "message": "Progress to gifted sub" },
-  "redeem_btn":      { "message": "Redeem Gifted Sub" },
+  "redeem_btn":      { "message": "Redeem" },
   "redeem_hint":     { "message": "Need $1 more credits" },
   "loading":         { "message": "Loading…" },
   "dashboard_link":  { "message": "Dashboard" },
@@ -19,13 +18,14 @@
 
   "ph_no_ads":          { "message": "No ads available right now" },
   "ph_no_ads_banner":   { "message": "No ads available right now — check back soon" },
-  "ph_connect_banner":  { "message": "Connect your Twitch account to start earning credits while watching ads" },
-  "ph_connect_chat":    { "message": "Connect your Twitch account to earn credits watching ads" },
+  "ph_connect_banner":  { "message": "Connect your Twitch account to start earning credits while watching streams" },
+  "ph_connect_chat":    { "message": "Connect your Twitch account to earn credits watching streams" },
   "ph_connect_card":    { "message": "Connect Twitch to earn credits" },
   "cta_connect_twitch": { "message": "Connect Twitch" },
   "cta_connect_short":  { "message": "Connect" },
   "hs_connect":         { "message": "Connect Twitch" },
   "sponsored":          { "message": "Sponsored" },
   "ad_tag":             { "message": "Ad" },
-  "dismiss":            { "message": "Dismiss" }
+  "dismiss":            { "message": "Dismiss" },
+  "badge_label":        { "message": "Your badges" }
 }

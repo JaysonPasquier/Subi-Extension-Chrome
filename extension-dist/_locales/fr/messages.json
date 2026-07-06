@@ -1,14 +1,13 @@
 {
   "ext_name":        { "message": "Subi" },
-  "ext_description": { "message": "Regarde des pubs sur Twitch, gagne des crédits, échange-les contre des abos offerts." },
+  "ext_description": { "message": "Regarde des streams sur Twitch, gagne des crédits, échange-les contre des abos offerts." },
 
-  "tagline":         { "message": "Pubs → Abos offerts" },
-  "login_desc":      { "message": "Connecte ton compte Twitch pour gagner des crédits en regardant des pubs et les échanger contre des abos offerts." },
+  "login_desc":      { "message": "Connecte ton compte Twitch pour gagner des crédits en regardant des streams et les échanger contre des abos offerts." },
   "connect_btn":     { "message": "Connecter avec Twitch" },
   "credits_label":   { "message": "Tes crédits" },
-  "credits_sub":     { "message": "6 impressions = 1 crédit · max 60/jour" },
+  "credits_sub":     { "message": "1 minute = 1 crédit · max 60/jour" },
   "progress_label":  { "message": "Progression vers un abo offert" },
-  "redeem_btn":      { "message": "Obtenir un abo offert" },
+  "redeem_btn":      { "message": "Échanger" },
   "redeem_hint":     { "message": "Il te manque $1 crédits" },
   "loading":         { "message": "Chargement…" },
   "dashboard_link":  { "message": "Tableau de bord" },
@@ -19,13 +18,14 @@
 
   "ph_no_ads":          { "message": "Aucune pub disponible pour le moment" },
   "ph_no_ads_banner":   { "message": "Aucune pub disponible pour le moment — reviens bientôt" },
-  "ph_connect_banner":  { "message": "Connecte ton compte Twitch pour gagner des crédits en regardant des pubs" },
-  "ph_connect_chat":    { "message": "Connecte ton compte Twitch pour gagner des crédits en regardant des pubs" },
+  "ph_connect_banner":  { "message": "Connecte ton compte Twitch pour gagner des crédits en regardant des streams" },
+  "ph_connect_chat":    { "message": "Connecte ton compte Twitch pour gagner des crédits en regardant des streams" },
   "ph_connect_card":    { "message": "Connecte Twitch pour gagner des crédits" },
   "cta_connect_twitch": { "message": "Connecter Twitch" },
   "cta_connect_short":  { "message": "Connecter" },
   "hs_connect":         { "message": "Connecter Twitch" },
   "sponsored":          { "message": "Sponsorisé" },
   "ad_tag":             { "message": "Pub" },
-  "dismiss":            { "message": "Fermer" }
+  "dismiss":            { "message": "Fermer" },
+  "badge_label":        { "message": "Tes badges" }
 }

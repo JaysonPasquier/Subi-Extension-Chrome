@@ -47,20 +47,33 @@ Décompresse le fichier où tu veux sur ton ordinateur (ex. `Téléchargements/s
 ### Étape 2 Activer le mode développeur dans Chrome
 
 1. Ouvre Chrome et va sur `chrome://extensions`
+
+   ![Page extensions Chrome](image/image1.png)
+
 2. Active le **Mode développeur** (coin en haut à droite)
+
+   ![Mode développeur](image/image2.png)
 
 ### Étape 3 Charger l'extension
 
 1. Clique sur **« Charger l'extension non empaquetée »**
 2. Sélectionne le dossier `extension-dist` que tu viens de décompresser
-3. L'icône Subi apparaît dans ta barre d'outils
+
+   ![Charger l'extension non empaquetée](image/image3.png)
 
 ### Étape 4 Connecter ton compte Twitch
 
-1. Clique sur l'icône Subi dans la barre d'outils
-2. Clique sur **« Connecter avec Twitch »**
-3. Autorise Subi sur la page Twitch qui s'ouvre
-4. C'est bon va regarder un stream !
+1. Sur n'importe quelle page Twitch, en bas du chat juste à côté du bouton 7TV se trouve un bouton
+
+   ![Bouton Subi dans le chat Twitch](image/image4.png)
+
+2. Cliquez dessus et connectez votre compte Twitch avec le site
+
+   ![Connexion Twitch](image/image5.png)
+
+3. C'est tout ! Il vous suffit juste de regarder n'importe quelle live !
+
+   ![Extension connectée](image/image6.png)
 
 ---
 
@@ -165,20 +178,33 @@ Unzip it anywhere on your computer (e.g. `Downloads/subi-extension`). **Keep thi
 ### Step 2 Enable Developer Mode in Chrome
 
 1. Open Chrome and go to `chrome://extensions`
+
+   ![Chrome extensions page](image/image1.png)
+
 2. Toggle **Developer mode** ON (top-right corner)
+
+   ![Developer mode](image/image2.png)
 
 ### Step 3 Load the extension
 
 1. Click **"Load unpacked"**
 2. Select the `extension-dist` folder you just unzipped
-3. The Subi icon appears in your toolbar
+
+   ![Load unpacked extension](image/image3.png)
 
 ### Step 4 Connect your Twitch account
 
-1. Click the Subi icon in the toolbar
-2. Click **"Connect with Twitch"**
-3. Authorize Subi on the Twitch page that opens
-4. Done go watch a stream!
+1. On any Twitch page, at the bottom of the chat right next to the 7TV button you'll find a button
+
+   ![Subi button in Twitch chat](image/image4.png)
+
+2. Click it and connect your Twitch account with the site
+
+   ![Twitch login](image/image5.png)
+
+3. That's it! Just watch any stream!
+
+   ![Extension connected](image/image6.png)
 
 ---
 
