@@ -76,7 +76,7 @@ async function fetchRotation(placement, userId) {
 }
 
 // â”€â”€â”€ Weighted ad array: higher bid = more slots â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-// $10 CPM on a $5 min â†’ weight 2 â†’ appears 2x as often as the min bidder.
+// $10 CPM on a $5 min â†' weight 2 â†' appears 2x as often as the min bidder.
 function buildWeightedAds(ads, placement) {
   const minBid = PLACEMENT_MIN_CPM[placement] ?? 300;
   const result = [];
@@ -177,14 +177,12 @@ const CONNECT_URL = 'https://subi.live/dashboard';
 function bannerPlaceholderHTML(connected = false) {
   if (connected) return `
     <div class="subi-banner-inner subi-placeholder">
-      <span class="subi-ph-icon">ðŸŸ£</span>
       <span class="subi-ph-text">${t('ph_no_ads_banner')}</span>
     </div>`;
   return `
     <div class="subi-banner-inner subi-placeholder">
-      <span class="subi-ph-icon">ðŸŸ£</span>
       <span class="subi-ph-text">${t('ph_connect_banner')}</span>
-      <a class="subi-cta" href="${CONNECT_URL}" target="_blank" rel="noopener noreferrer">${t('cta_connect_twitch')} â†’</a>
+      <a class="subi-cta" href="${CONNECT_URL}" target="_blank" rel="noopener noreferrer">${t('cta_connect_twitch')}</a>
     </div>`;
 }
 
@@ -200,7 +198,7 @@ function chatBannerPlaceholderHTML(connected = false) {
     <div class="subi-cb-inner subi-placeholder">
       <div class="subi-cb-body">
         <p class="subi-cb-headline">${t('ph_connect_chat')}</p>
-        <a class="subi-cb-cta" href="${CONNECT_URL}" target="_blank" rel="noopener noreferrer">${t('cta_connect_twitch')} â†’</a>
+        <a class="subi-cb-cta" href="${CONNECT_URL}" target="_blank" rel="noopener noreferrer">${t('cta_connect_twitch')}</a>
       </div>
       <span class="subi-cb-sponsored">Subi</span>
     </div>`;
@@ -258,7 +256,7 @@ async function renderBannerContent(hasToken) {
       <div class="subi-banner-inner">
         ${logoHTML(ad, 'subi-banner-logo', src)}
         <span class="subi-text">${esc(ad.headline)}</span>
-        <a class="subi-cta" href="${safeUrl(ad.url)}" target="_blank" rel="noopener noreferrer">${esc(ad.cta_text)} â†’</a>
+        <a class="subi-cta" href="${safeUrl(ad.url)}" target="_blank" rel="noopener noreferrer">${esc(ad.cta_text)} â†'</a>
       </div>`;
   }
 
@@ -333,7 +331,7 @@ async function renderChatBannerContent(hasToken) {
         ${logoHTML(ad, 'subi-cb-logo', src)}
         <div class="subi-cb-body">
           <p class="subi-cb-headline">${esc(ad.headline)}</p>
-          <a class="subi-cb-cta" href="${safeUrl(ad.url)}" target="_blank" rel="noopener noreferrer">${esc(ad.cta_text)} â†’</a>
+          <a class="subi-cb-cta" href="${safeUrl(ad.url)}" target="_blank" rel="noopener noreferrer">${esc(ad.cta_text)} â†'</a>
         </div>
         <span class="subi-cb-sponsored">${t('sponsored')}</span>
         <button class="subi-cb-close" title="${t('dismiss')}">âœ•</button>
@@ -410,7 +408,7 @@ function chatCardPlaceholderHTML(connected = false) {
   return `
     <div class="subi-chat-msg-inner subi-placeholder">
       <p class="subi-chat-msg-headline">${t('ph_connect_card')}</p>
-      <a class="subi-chat-msg-cta" href="${CONNECT_URL}" target="_blank" rel="noopener noreferrer">${t('cta_connect_short')} â†’</a>
+      <a class="subi-chat-msg-cta" href="${CONNECT_URL}" target="_blank" rel="noopener noreferrer">${t('cta_connect_short')}</a>
     </div>`;
 }
 
@@ -442,7 +440,7 @@ async function renderChatCardContent(hasToken) {
       <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,0.12) 0%,transparent 60%);border-radius:inherit;pointer-events:none"></div>
       ${logoHTML(ad, 'subi-chat-msg-logo', src)}
       <p class="subi-chat-msg-headline">${esc(ad.headline)}</p>
-      <a class="subi-chat-msg-cta" href="${safeUrl(ad.url)}" target="_blank" rel="noopener noreferrer">${esc(ad.cta_text)} â†’</a>
+      <a class="subi-chat-msg-cta" href="${safeUrl(ad.url)}" target="_blank" rel="noopener noreferrer">${esc(ad.cta_text)} â†'</a>
       <span class="subi-chat-msg-ad-tag">${t('ad_tag')}</span>`;
   }
 
@@ -1118,7 +1116,7 @@ function makeBadgeEl(badge) {
   return wrap;
 }
 
-// Pre-loaded at boot â€” Map of username â†’ { slug, name, image_url, priority }
+// Pre-loaded at boot â€” Map of username â†' { slug, name, image_url, priority }
 const BADGE_MAP = new Map();
 let   badgesReady  = false;
 let   badgeObserver = null;
