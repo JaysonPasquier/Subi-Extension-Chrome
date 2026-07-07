@@ -215,8 +215,7 @@
   font-weight: 700;
   color: #efeff1;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  overflow: visible;
 }
 
 .subi-cb-cta {
@@ -263,7 +262,7 @@
 .subi-chat-msg {
   position: relative;
   margin: 4px 8px;
-  z-index: 50;
+  z-index: 10;
   display: flex;
   align-items: center;
   gap: 12px;
